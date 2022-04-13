@@ -1,1 +1,1 @@
-# curriculo aluno hugo araujo corona
+# curriculo hugo araujo 
