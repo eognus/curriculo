@@ -13,15 +13,15 @@
 
   h2, h3, h4, h5, h6  {
   font-family: serif;
-    font-size: 29px
+    font-size: 250%
 }
   
 .grid-container {
   display: grid;
-  grid-template-columns: 500px;
-  grid-template-rows: 200px;
-  padding: 50px; 
-  height: 300px;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  padding: 4%; 
+  height: 150%;
   background-image: linear-gradient(to left, rgb(0, 155, 160), rgba(0, 0, 128, 0.8));
   margin-top: 0;
   margin-left: 20%;
@@ -32,14 +32,12 @@
 .grid-item {
   background-color: #000080;
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 46px;
+  padding: 5%;
+  font-size: 250%;
   text-align: left
 }
-  heading{
-    
-  }
-  img{
+ 
+  #foto{
     position: absolute;
     height: 100%;
     width : 33%;
@@ -56,8 +54,8 @@
 <body style="background-color: powderblue">
 
 <div class="grid-container">
-  <div class="grid-item w3-cursive" style = "color: white ">
-<div><b>
+  <div class="grid-item w3-cursive" style = "color: #fffec8 ">
+<div style = "color: white"><b>
       Hugo<br>Araujo Corona
 </b></div>
   </div>
@@ -65,32 +63,31 @@
   
 
   
-<img  class="img" style="z-index:2" src="foto.jpg" alt= "foto"> </div>
+<img  id="foto" style="z-index:2" src="foto.jpg" alt= "foto"> </div>
 
   <div  class="w3-display-container w3-white"  style=" width:60%; height:100%; position:absolute;  top:48%; left:20%; box-sizing: border-box;" >
-    <div  style="padding: 40px 30px;">
+    <div  style="padding: 5% 5%;">
       <h2>Sobre mim</h2>
-      <p>  Criado em São Mateus desde pequeno,onde iniciei<br> e completei o 1º e 2º grau(este no IFES) de<br> escolaridade. No campus de São Mateus, cursei<br> técnico em eletrotécnica integrado ao ensino<br> médio, onde me desenvolvi academicamente<br> principalmente na área de projetos e circuitos<br> elétricos. Apesar do conhcimento técnico<br> adquirido então, estudo na Universidade de Vila<br> Velha no curso de Ciência da Computação, onde<br> pretendo me especializar, desenvolver projetos<br> e trabalhar nessa nova área.</p>
+      <p>    Criado em São Mateus- ES, onde iniciei<br> e completei o 1º e 2º grau(IFES) de<br> escolaridade. No campus de São Mateus, cursei<br> Técnico em Eletrotécnica Integrado ao Ensino<br> Médio, onde me desenvolvi academicamente<br> principalmente na área de projetos e circuitos<br> elétricos. Apesar do conhcimento técnico<br> adquirido então, estudo na Universidade de Vila<br> Velha no curso de Ciência da Computação, onde<br> pretendo me especializar, desenvolver projetos<br> e trabalhar nessa nova área.</p>
 
     
-      <h3><br>Contato</h3>
+      <h3>Contato</h3>
       <p>Celular: (27) 99658-1635<br>
       email: <a href="mailto:hugoaraujocorona573@gmail.com">hugoaraujocorona573@gmail.com</a><br>
-      Cidade: Vitória/ES</p></div>
+      Cidade: Vitória/ES</p>
+    <a href="https://github.com/eognus"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width= 7% height= 7% "></a>
+        <a href="https://www.linkedin.com/in/hugo-araujo-corona/"><img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="linkedin" width= 7% height= 7% "></a></div>
     
 
-<div class="w3-display-right" style="padding: 10px 50px;">
+<div class="w3-display-right" style="padding: 5% 5%;">
       <h4>Profissão</h4>
       <p>Estudante</p>
  
 
      
-      <h5>Competências</h5><ul>
-      <li>Inglês avançado</li>
-        <li>Inovação e criatividade</li>
-        <li>Gestão de pessoas</li></ul>
-  
-
+      <h5>Certificados</h5><ul>
+      <li><a href="Besidesvix.pdf">Cybersegurança</a></li>
+        <li><a href="Centelha.PDF">Projeto Centelha</a></li></ul>
    
       <h6>Formação Acadêmica</h6>
       <p><b>Colégio Conhecer<br></b>
@@ -98,8 +95,6 @@
      <b>IFES Campus São Mateus </b><br>
       Técnico em Eletrotécnica Integrado<br> ao Ensio Médio, 2022</p>
     </div></div>
-
-    
     
 </body>
 </html>
