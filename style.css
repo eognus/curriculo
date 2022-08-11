@@ -1,3 +1,10 @@
-.wow {
-  width: 100px;
+#foto{
+   position: absolute;
+    height: 100%;
+    width : 33%;
+    right: 5%;
+    bottom: -10%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
 }
